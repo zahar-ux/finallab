@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/gallery.css" />
+    <title>Traveloka Gallery</title>
+  </head>
+
+  <header>
+    <div>
+      <img
+        src="https://1.bp.blogspot.com/-cBfGfTYoBlY/YOMgGumda6I/AAAAAAAAIuM/Q-bnZSnnUBEFjJihQVK0ZMnJAqFjpL8QgCLcBGAsYHQ/s1453/logo-traveloka.png"
+        width="100px"
+      />
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="galler.html">Gallery</a>
+      <a href="about.html">About Us</a>
+    </nav>
+
+    <div id="bars">
+      <i class="fa fa-bars" style="font-size: 48px"></i>
+    </div>
+  </header>
+
+  <body>
+    <div class="banner">
+      <!-- <img
+        id="Gallery"
+        src="https://images.pexels.com/photos/670061/pexels-photo-670061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        width="100%"
+        height="800px"
+      /> -->
+
+      <div class="title"><h1>Traveller Gallery</h1></div>
+      <p>" Awesome Picture Taken By Awesome People"</p>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <img
+          src="image/1.jpg"
+          alt="Nature"
+          style="width: 200px"
+          height="200px"
+          onclick="myFunction(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="image/2.jpeg"
+          alt="Snow"
+          style="width: 200px"
+          height="200px"
+          onclick="myFunction(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="image/3.jpeg"
+          alt="Mountains"
+          style="width: 200px"
+          height="200px"
+          onclick="myFunction(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="image/4.jpeg"
+          alt="Lights"
+          style="width: 200px"
+          height="200px"
+          onclick="myFunction(this);"
+        />
+      </div>
+
+      <div class="column">
+        <img
+          src="image/5.jpeg"
+          alt="Lights"
+          style="width: 200px"
+          height="200px"
+          onclick="myFunction(this);"
+        />
+      </div>
+
+      <div class="column">
+        <img
+          src="image/6.jpeg"
+          style="width: 200px"
+          height="200px"
+          onclick="myFunction(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="image/7.jpeg"
+          alt="Snow"
+          style="width: 200px"
+          height="200px"
+          onclick="myFunction(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="image/8.jpeg"
+          alt="Mountains"
+          style="width: 200px"
+          height="200px"
+          onclick="myFunction(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="image/9.jpeg"
+          alt="Lights"
+          style="width: 200px"
+          height="200px"
+          onclick="myFunction(this);"
+        />
+      </div>
+
+      <div class="column">
+        <img
+          src="image/10.jpeg"
+          alt="Lights"
+          style="width: 200px"
+          height="200px"
+          onclick="myFunction(this);"
+        />
+      </div>
+
+      <div class="column">
+        <img
+          src="image/11.jpeg"
+          alt="Lights"
+          style="width: 200px"
+          height="200px"
+          onclick="myFunction(this);"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="image/12.jpeg"
+          alt="Lights"
+          style="width: 200px"
+          height="200px"
+          onclick="myFunction(this);"
+        />
+      </div>
+
+      <div class="column">
+        <img
+          src="image/13.jpeg"
+          alt="Lights"
+          style="width: 200px"
+          height="200px"
+          onclick="myFunction(this);"
+        />
+      </div>
+
+      <div class="column">
+        <img
+          src="image/14.jpeg"
+          alt="Lights"
+          style="width: 200px"
+          height="200px"
+          onclick="myFunction(this);"
+        />
+      </div>
+
+      <div class="column">
+        <img
+          src="image/15.jpeg"
+          alt="Lights"
+          style="width: 200px"
+          height="200px"
+          onclick="myFunction(this);"
+        />
+      </div>
+
+      <div class="column">
+        <img
+          src="image/16.jpeg"
+          alt="Lights"
+          style="width: 200px"
+          height="200px"
+          onclick="myFunction(this);"
+        />
+      </div>
+    </div>
+
+    <div class="container">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn"
+        >&times;</span
+      >
+      <img id="expandedImg" style="width: 100%" />
+      <div id="imgtext"></div>
+    </div>
+
+    <script>
+      function myFunction(imgs) {
+        var expandImg = document.getElementById("expandedImg");
+        var imgText = document.getElementById("imgtext");
+        expandImg.src = imgs.src;
+        imgText.innerHTML = imgs.alt;
+        expandImg.parentElement.style.display = "block";
+      }
+    </script>
+  </body>
+
+  <footer>
+    <div class="Social-Media">
+      <h3>Contact Us Via:</h3>
+      <a href="https://www.facebook.com/Traveloka/" class="fa fa-facebook"></a>
+      <a
+        href="https://twitter.com/travelokamy?lang=en"
+        class="fa fa-twitter"
+      ></a>
+      <a
+        href="https://www.youtube.com/channel/UCk8XPjpvC_wXQhXrT5unl9Q"
+        class="fa fa-youtube"
+      ></a>
+      <a
+        href="https://www.instagram.com/travelokamy/?hl=en"
+        class="fa fa-instagram"
+      ></a>
+    </div>
+    <hr />
+    <p>
+      ALLSTAR TRAVEL & TOURS SDN. BHD. Registration No. 200001008213 (510819-T),
+      Level 14 Tower 2, Menara Kembar Bank Rakyat, 33 Jalan Rakyat Brickfields,
+      50470 Kuala Lumpur, Malaysia
+    </p>
+    <p>Copyright © 2021 Traveloka</p>
+    <hr />
+  </footer>
+</html>

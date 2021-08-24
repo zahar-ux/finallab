@@ -1,0 +1,403 @@
+header {
+  background-color: #019ac9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+#bars {
+  display: none;
+  color: white;
+  font-size: 30px;
+  line-height: 80px;
+  float: right;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.close {
+  display: none;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 5px 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+nav a:hover {
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  transition: 0.2s;
+}
+
+.banner {
+  background-image: url(https://techbyeast.com/wp-content/uploads/2021/04/traveloka.jpeg);
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+  /* text-align: center;
+  align-items: center;
+  justify-content: center; */
+}
+
+.banner h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 0 70px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+
+span {
+  background-color: black;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+#banner_quote {
+  align-items: center;
+  justify-content: center;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#banner_quote2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+}
+.title {
+  text-align: center;
+  margin-top: 10%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: larger;
+}
+.top_destination {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px 0px;
+  margin-left: 8%;
+}
+
+.top_destination_box1 {
+  background-image: url(https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5e5de9e944b78400068bdc42%2FKuala-Lumpur-Skyline--Malaysia%2F960x0.jpg%3Ffit%3Dscale);
+  height: 300px;
+  width: 250px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  filter: brightness(80%);
+  /* transition: width 1s, height 1s, transform 1s; */
+  opacity: 1;
+}
+
+.top_destination_box1:hover {
+  border: 5px solid #019ac9;
+  height: 305px;
+  width: 255px;
+  /* width: 300px;
+  height: 300px;
+  transform: rotate(360deg); */
+  opacity: 0.7;
+}
+
+.top_destination_box1 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.top_destination_box2 {
+  background-image: url(https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1100,c_fill,g_auto,h_619,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F191212182124-04-singapore-buildings.jpg);
+  height: 300px;
+  width: 250px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  filter: brightness(80%);
+}
+
+.top_destination_box2:hover {
+  border: 5px solid #019ac9;
+  height: 305px;
+  width: 255px;
+}
+
+.top_destination_box3 {
+  background-image: url(https://www.iflr.com/Media/images/iflr/may-2020/bangkok.jpg);
+  height: 300px;
+  width: 250px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  filter: brightness(80%);
+}
+
+.top_destination_box3:hover {
+  border: 5px solid #019ac9;
+  height: 305px;
+  width: 255px;
+}
+
+.top_destination_box4 {
+  background-image: url(https://cdn.newsapi.com.au/image/v1/1190c9a786e058d671a14beeeb045b65);
+  height: 300px;
+  width: 250px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  filter: brightness(80%);
+}
+
+.top_destination_box4:hover {
+  border: 5px solid #019ac9;
+  height: 305px;
+  width: 255px;
+}
+
+.top_destination_box5 {
+  background-image: url(http://ttgasia.2017.ttgasia.com/wp-content/uploads/sites/2/2019/05/Hooker-Valley-in-New-Zealand.jpg);
+  height: 300px;
+  width: 250px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  filter: brightness(80%);
+}
+
+.top_destination_box5:hover {
+  border: 5px solid #019ac9;
+  height: 305px;
+  width: 255px;
+}
+
+.top_destination_box6 {
+  background-image: url(https://i.insider.com/5d0150e06fc9200b5a05f042?width=700&format=jpeg&auto=webp);
+  height: 300px;
+  width: 250px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  filter: brightness(80%);
+}
+
+.top_destination_box6:hover {
+  border: 5px solid #019ac9;
+  height: 305px;
+  width: 255px;
+}
+
+.top_destination_box7 {
+  background-image: url(https://i.hurimg.com/i/hdn/75/0x0/60fc0fa24e3fe116a43ea866.jpg);
+  height: 300px;
+  width: 250px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  filter: brightness(80%);
+}
+
+.top_destination_box7:hover {
+  border: 5px solid #019ac9;
+  height: 305px;
+  width: 255px;
+}
+
+.top_destination_box8 {
+  background-image: url(https://upload.travelawaits.com/ta/uploads/2021/04/eiffel-tower-800x800.jpg);
+  height: 300px;
+  width: 250px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  filter: brightness(80%);
+  opacity: 1;
+}
+
+.top_destination_box8:hover {
+  border: 5px solid #019ac9;
+  height: 305px;
+  width: 255px;
+  opacity: 0.8;
+}
+
+.promotion {
+  margin-top: 5%;
+  margin-left: 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 0px;
+}
+
+.promotion img {
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.promotion img:hover {
+  border: 1px solid black;
+  opacity: 0.8;
+}
+
+#bottom_bar {
+  width: 40px;
+  height: 50px;
+  padding-right: 64em;
+  padding-left: 25em;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid black;
+  position: fixed;
+  bottom: 0px;
+  /* right: 10px; */
+  /* left: 23px; */
+  left: -4px;
+}
+.text_bar {
+  position: fixed;
+  font-weight: bold;
+  left: 14px;
+  bottom: 3px;
+  color: white;
+}
+
+button {
+  padding: 10px 30px;
+  position: fixed;
+  bottom: 10px;
+  right: 60px;
+  /* right:3em; */
+  border-radius: 10px;
+  background-color: rgb(237, 90, 107);
+  border-color: rgb(237, 90, 107);
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 5%;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.fa-facebook {
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.fa-twitter {
+  color: white;
+  background-color: blue;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.fa-youtube {
+  color: white;
+  background-color: red;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.fa-instagram {
+  color: white;
+  background-color: yellowgreen;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 630px) {
+  #bars {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-left: 80%; */
+  }
+
+  nav a {
+    display: none;
+  }
+  .top_destination {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .promotion {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin-left: 0;
+  }
+
+  #bottom_bar {
+    display: none;
+  }
+
+  button {
+    display: none;
+  }
+
+  .icon-expand {
+    display: none;
+  }
+}
